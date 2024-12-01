@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <label class="switch">
+            <input type="checkbox" id="languageSwitch">
+            <span class="slider"></span>
+        </label>
+        <span id="language-label">Eng</span>
+        <h2 id="question"></h2>
+        <div id="options"></div>
+        <button id="previous" onclick="previousQuestion()">Previous</button>
+        <button id="show-answer" onclick="showAnswer()">Show Answer</button>
+        <button id="next" onclick="nextQuestion()">Next</button>
+        <div id="feedback"></div>
+        <div id="note"></div>
+    </div>
+    <!-- <script src="eng.js"></script> -->
+    <!-- <script src="eng2.js"></script> -->
+    <script src="style.js"></script>
+</body>
+</html>
