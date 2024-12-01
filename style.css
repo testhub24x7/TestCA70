@@ -115,31 +115,31 @@ input:checked + .slider:before {
 @media screen and (max-width: 768px) {
     /* For tablets and small screens */
     #question {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 
-    #options {
-        font-size: 1.2em;
+    #options, #feedback, #note {
+        font-size: 1em;
     }
 
     button {
         padding: 12px 25px;
-        font-size: 1em;
+        font-size: 0.8em;
     }
 }
 
 @media screen and (max-width: 480px) {
     /* For mobile screens */
     #question {
-        font-size: 2em; /* Smaller font size for mobile */
+        font-size: 1em; /* Smaller font size for mobile */
     }
 
-    #options {
-        font-size: 1em; /* Adjust paragraph font for mobile */
+    #options, #feedback, #note {
+        font-size: 0.8em; /* Adjust paragraph font for mobile */
     }
 
     button {
         padding: 10px 20px;
-        font-size: 0.9em; /* Smaller button text on mobile */
+        font-size: 0.8em; /* Smaller button text on mobile */
     }
 }
