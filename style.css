@@ -52,14 +52,12 @@ h2 {
 #note {
     color: #007bff;
     margin-top: 10px;
-    /* padding-top: 10px; */
 }
 
 button {
     margin: 5px;
     padding: 10px 15px;
-/*     background: #007bff; */
-    background: #986868;
+    background: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
@@ -131,6 +129,28 @@ input:checked + .slider:before {
 
 @media screen and (max-width: 480px) {
     /* For mobile screens */
+    body{
+        padding:2px;
+    }
+    #quiz-container{
+        padding: 10px;
+    }
+    .switch {
+        width: 40px;
+        height: 18px;
+    }
+    .slider:before {
+        height: 14px;
+        width: 16px;
+        left: 4px;
+        bottom: 2px;
+    } 
+    input:checked + .slider:before {
+        transform: translateX(16px);
+    }
+    #language-label{
+        font-size: 0.8em;
+    }
     #question {
         font-size: 1em; /* Smaller font size for mobile */
     }
@@ -141,6 +161,6 @@ input:checked + .slider:before {
 
     button {
         padding: 10px 20px;
-        font-size: 0.8em; /* Smaller button text on mobile */
+        font-size: 0.6em; /* Smaller button text on mobile */
     }
 }
