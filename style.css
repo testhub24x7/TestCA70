@@ -58,7 +58,8 @@ h2 {
 button {
     margin: 5px;
     padding: 10px 15px;
-    background: #007bff;
+/*     background: #007bff; */
+    background: #986868;
     color: white;
     border: none;
     border-radius: 5px;
